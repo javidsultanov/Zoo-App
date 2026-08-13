@@ -9,14 +9,14 @@ import Foundation
 
 class OnboardingViewModel {
     private var onboardings: [Onboarding] = [.init(onboardingImage: "onboarding_zoos",
-                                                   onboardingTitle: "Explore Zoos!",
-                                                   onboardingInfo: "Find interesting zoos and discover the animals living in them."),
+                                                   onboardingTitle: "Explore Our Zoos",
+                                                   onboardingInfo: "Find interesting zoos from different places, learn more about each location, and discover the animals living in them. Plan your next wildlife adventure with ease."),
                                              .init(onboardingImage: "onboarding_animals",
-                                                   onboardingTitle: "Meet Animals!",
-                                                   onboardingInfo: "Learn fascinating facts about animals, their habitats and diets."),
+                                                   onboardingTitle: "Meet Our Animals",
+                                                   onboardingInfo: "Meet incredible animals and learn fascinating facts about their habitats, diets, behavior, and way of life. Discover something new about every animal you meet."),
                                              .init(onboardingImage: "onboarding_favorites",
-                                                   onboardingTitle: "Save Favorites!",
-                                                   onboardingInfo: "Save your favorite zoos and animals to find them again anytime.")]
+                                                   onboardingTitle: "Save Your Favorites",
+                                                   onboardingInfo: "Save the zoos and animals you love in your favorites, so you can quickly find and explore them again anytime. Keep all your favorite discoveries in one place.")]
     
     private var currentIndex = 0
     
