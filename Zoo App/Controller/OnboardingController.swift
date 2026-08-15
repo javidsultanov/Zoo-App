@@ -8,47 +8,21 @@
 import UIKit
 
 class OnboardingController: UIViewController {
-    private lazy var mainTitleLabel: UILabel = {
-        let label = UILabel()
-        label.text = "Discover the World of Wildlife"
-        label.textColor = .white
-        label.font = UIFont.systemFont(ofSize: 28, weight: .regular)
-        label.textAlignment = .center
-        label.numberOfLines = 0
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }()
-    
-    private lazy var bottomView: UIView = {
-        let view = UIView()
-        view.backgroundColor = .white
-        view.layer.cornerRadius = 36
+    private lazy var onboardingCollectionView: UICollectionView = {
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .horizontal
+        layout.minimumLineSpacing = 0
+        layout.minimumInteritemSpacing = 0
+        
+        let view = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        view.register(OnboardingCell.self, forCellWithReuseIdentifier: "OnboardingCell")
+        view.isPagingEnabled = true
+        view.showsHorizontalScrollIndicator = false
+        view.dataSource = self
+        view.delegate = self
         view.translatesAutoresizingMaskIntoConstraints = false
+        view.bounces = false
         return view
-    }()
-    
-    private lazy var onboardingImageView: UIImageView = {
-        let image = UIImageView()
-        image.contentMode = .scaleAspectFit
-        image.translatesAutoresizingMaskIntoConstraints = false
-        return image
-    }()
-    
-    private lazy var onboardingTitleLabel: UILabel = {
-        let label = UILabel()
-        label.textColor = .systemGreen
-        label.font = UIFont.systemFont(ofSize: 24, weight: .bold)
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
-    }()
-    
-    private lazy var onboardingInfoLabel: UILabel = {
-        let label = UILabel()
-        label.textColor = .black
-        label.font = UIFont.systemFont(ofSize: 16, weight: .regular)
-        label.numberOfLines = 0
-        label.translatesAutoresizingMaskIntoConstraints = false
-        return label
     }()
     
     private lazy var onboardingButton: UIButton = {
@@ -70,7 +44,7 @@ class OnboardingController: UIViewController {
     }()
     
     private let viewModel = OnboardingViewModel()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -86,43 +60,21 @@ class OnboardingController: UIViewController {
     }
     
     private func configureConstraints() {
-        view.addSubview(mainTitleLabel)
-        view.addSubview(onboardingImageView)
-        view.addSubview(bottomView)
-        
-        bottomView.addSubview(onboardingTitleLabel)
-        bottomView.addSubview(onboardingInfoLabel)
-        bottomView.addSubview(pagecontrol)
-        bottomView.addSubview(onboardingButton)
+        view.addSubview(onboardingCollectionView)
+        view.addSubview(onboardingButton)
+        view.addSubview(pagecontrol)
         
         NSLayoutConstraint.activate([
-            mainTitleLabel.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 44),
-            mainTitleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            mainTitleLabel.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.88),
+            onboardingCollectionView.topAnchor.constraint(equalTo: view.topAnchor),
+            onboardingCollectionView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            onboardingCollectionView.widthAnchor.constraint(equalTo: view.widthAnchor),
+            onboardingCollectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
             
-            onboardingImageView.topAnchor.constraint(equalTo: mainTitleLabel.bottomAnchor, constant: 20),
-            onboardingImageView.leadingAnchor.constraint(equalTo: mainTitleLabel.leadingAnchor),
-            onboardingImageView.trailingAnchor.constraint(equalTo: mainTitleLabel.trailingAnchor),
-            onboardingImageView.heightAnchor.constraint(equalToConstant: 360),
+            pagecontrol.leadingAnchor.constraint(equalTo: onboardingCollectionView.leadingAnchor, constant: 24),
+            pagecontrol.bottomAnchor.constraint(equalTo: onboardingCollectionView.bottomAnchor, constant: -76),
             
-            bottomView.topAnchor.constraint(equalTo: onboardingImageView.bottomAnchor, constant: 20),
-            bottomView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            bottomView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            bottomView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-            
-            onboardingTitleLabel.topAnchor.constraint(equalTo: bottomView.topAnchor, constant: 28),
-            onboardingTitleLabel.leadingAnchor.constraint(equalTo: bottomView.leadingAnchor, constant: 32),
-            onboardingTitleLabel.trailingAnchor.constraint(equalTo: bottomView.trailingAnchor, constant: -32),
-            
-            onboardingInfoLabel.topAnchor.constraint(equalTo: onboardingTitleLabel.bottomAnchor, constant: 16),
-            onboardingInfoLabel.leadingAnchor.constraint(equalTo: onboardingTitleLabel.leadingAnchor),
-            onboardingInfoLabel.trailingAnchor.constraint(equalTo: onboardingTitleLabel.trailingAnchor),
-            
-            pagecontrol.leadingAnchor.constraint(equalTo: onboardingInfoLabel.leadingAnchor),
-            pagecontrol.bottomAnchor.constraint(equalTo: bottomView.bottomAnchor, constant: -76),
-            
-            onboardingButton.trailingAnchor.constraint(equalTo: onboardingInfoLabel.trailingAnchor),
-            onboardingButton.bottomAnchor.constraint(equalTo: bottomView.bottomAnchor, constant: -64),
+            onboardingButton.trailingAnchor.constraint(equalTo: onboardingCollectionView.trailingAnchor, constant: -24),
+            onboardingButton.bottomAnchor.constraint(equalTo: onboardingCollectionView.bottomAnchor, constant: -64),
             onboardingButton.widthAnchor.constraint(equalToConstant: 96),
             onboardingButton.heightAnchor.constraint(equalToConstant: 52)
         ])
@@ -139,17 +91,17 @@ class OnboardingController: UIViewController {
             self.showHomePage()
         }
         
+        onboardingCollectionView.reloadData()
+        view.layoutIfNeeded()
         configureOnboarding()
     }
     
     private func configureOnboarding() {
-        let onboarding = viewModel.currentOnboarding
-        
-        onboardingImageView.image = UIImage(named: onboarding.onboardingImage)
-        onboardingTitleLabel.text = onboarding.onboardingTitle
-        onboardingInfoLabel.text = onboarding.onboardingInfo
-        
         pagecontrol.currentPage = viewModel.currentPage
+                
+        onboardingCollectionView.scrollToItem(at: IndexPath(item: viewModel.currentPage, section: 0),
+                                              at: .centeredHorizontally,
+                                              animated: true)
         
         if viewModel.currentPage == viewModel.numberOfPages - 1 {
             onboardingButton.setTitle("Let's Start", for: .normal)
@@ -167,5 +119,35 @@ class OnboardingController: UIViewController {
            let sceneDelegate = windowScene.delegate as? SceneDelegate {
             sceneDelegate.setHomeAsRoot()
         }
+    }
+}
+
+extension OnboardingController: UICollectionViewDelegate, UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        viewModel.numberOfPages
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "OnboardingCell", for: indexPath) as? OnboardingCell else {
+            return UICollectionViewCell()
+        }
+        
+        cell.configureCell(onboarding: viewModel.currentOnboarding)
+        return cell
+    }
+    
+}
+
+extension OnboardingController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return collectionView.bounds.size
+    }
+}
+
+extension OnboardingController: UIScrollViewDelegate {
+    func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
+        let width = Int(round(scrollView.contentOffset.x / scrollView.frame.width))
+        viewModel.changePage(index: width)
+        configureOnboarding()
     }
 }

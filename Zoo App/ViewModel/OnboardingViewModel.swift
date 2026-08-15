@@ -44,6 +44,10 @@ class OnboardingViewModel {
         }
     }
     
+    func changePage(index: Int) {
+        currentIndex = index
+    }
+    
     private func completeOnboarding() {
         UserDefaults.standard.set(true, forKey: "hasSeenOnboarding")
         finishCallback?()

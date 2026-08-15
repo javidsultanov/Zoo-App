@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeController: UITabBarController {
+class HomeController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,6 +17,6 @@ class HomeController: UITabBarController {
     
     private func configureUI() {
         view.backgroundColor = .secondarySystemBackground
-        navigationItem.title = "Home"
+        navigationItem.title = "SAS Zoo"
     }
 }

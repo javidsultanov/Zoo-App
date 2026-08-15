@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FavoritesController: UITabBarController {
+class FavoritesController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
