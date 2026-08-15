@@ -52,12 +52,12 @@ class HomeController: UIViewController {
             zooTableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             zooTableView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             zooTableView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.92),
-            zooTableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
+            zooTableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -12),
             
             zooCollectionView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             zooCollectionView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             zooCollectionView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.92),
-            zooCollectionView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
+            zooCollectionView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -12)
         ])
     }
     
