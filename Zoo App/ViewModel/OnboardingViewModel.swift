@@ -8,7 +8,7 @@
 import Foundation
 
 class OnboardingViewModel {
-    private var onboardings: [Onboarding] = [.init(onboardingImage: "onboarding_zoos",
+    let onboardings: [Onboarding] = [.init(onboardingImage: "onboarding_zoos",
                                                    onboardingTitle: "Explore Our Zoos",
                                                    onboardingInfo: "Find interesting zoos from different places, learn more about each location, and discover the animals living in them. Plan your next wildlife adventure with ease."),
                                              .init(onboardingImage: "onboarding_animals",
@@ -18,23 +18,11 @@ class OnboardingViewModel {
                                                    onboardingTitle: "Save Your Favorites",
                                                    onboardingInfo: "Save the zoos and animals you love in your favorites, so you can quickly find and explore them again anytime. Keep all your favorite discoveries in one place.")]
     
-    private var currentIndex = 0
+    var currentIndex = 0
     
     var nextCallback: (() -> Void)?
     var finishCallback: (() -> Void)?
-    
-    var numberOfPages: Int {
-        onboardings.count
-    }
-    
-    var currentPage: Int {
-        currentIndex
-    }
-    
-    var currentOnboarding: Onboarding {
-        onboardings[currentIndex]
-    }
-    
+        
     func nextPage() {
         if currentIndex == onboardings.count - 1 {
             completeOnboarding()
@@ -42,10 +30,6 @@ class OnboardingViewModel {
             currentIndex += 1
             nextCallback?()
         }
-    }
-    
-    func changePage(index: Int) {
-        currentIndex = index
     }
     
     private func completeOnboarding() {

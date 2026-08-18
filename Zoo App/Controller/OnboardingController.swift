@@ -81,7 +81,7 @@ class OnboardingController: UIViewController {
     }
     
     private func configureViewModel() {
-        pagecontrol.numberOfPages = viewModel.numberOfPages
+        pagecontrol.numberOfPages = viewModel.onboardings.count
         
         viewModel.nextCallback = {
             self.configureOnboarding()
@@ -97,13 +97,13 @@ class OnboardingController: UIViewController {
     }
     
     private func configureOnboarding() {
-        pagecontrol.currentPage = viewModel.currentPage
+        pagecontrol.currentPage = viewModel.currentIndex
                 
-        onboardingCollectionView.scrollToItem(at: IndexPath(item: viewModel.currentPage, section: 0),
+        onboardingCollectionView.scrollToItem(at: IndexPath(item: viewModel.currentIndex, section: 0),
                                               at: .centeredHorizontally,
                                               animated: true)
         
-        if viewModel.currentPage == viewModel.numberOfPages - 1 {
+        if viewModel.currentIndex == viewModel.onboardings.count - 1 {
             onboardingButton.setTitle("Let's Start", for: .normal)
         } else {
             onboardingButton.setTitle("Next", for: .normal)
@@ -124,7 +124,7 @@ class OnboardingController: UIViewController {
 
 extension OnboardingController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        viewModel.numberOfPages
+        viewModel.onboardings.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -132,7 +132,7 @@ extension OnboardingController: UICollectionViewDelegate, UICollectionViewDataSo
             return UICollectionViewCell()
         }
         
-        cell.configureCell(onboarding: viewModel.currentOnboarding)
+        cell.configureCell(onboarding: viewModel.onboardings[indexPath.item])
         return cell
     }
     
@@ -147,7 +147,7 @@ extension OnboardingController: UICollectionViewDelegateFlowLayout {
 extension OnboardingController: UIScrollViewDelegate {
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         let width = Int(round(scrollView.contentOffset.x / scrollView.frame.width))
-        viewModel.changePage(index: width)
+        viewModel.currentIndex = width
         configureOnboarding()
     }
 }
