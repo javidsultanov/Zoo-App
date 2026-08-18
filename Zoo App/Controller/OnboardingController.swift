@@ -7,6 +7,8 @@
 
 import UIKit
 
+//MARK: Onboarding View
+
 class OnboardingController: UIViewController {
     private lazy var onboardingCollectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
@@ -52,6 +54,8 @@ class OnboardingController: UIViewController {
         configureConstraints()
         configureViewModel()
     }
+    
+    //MARK: View Functions
     
     private func configureUI() {
         view.backgroundColor = .systemGreen
@@ -122,6 +126,8 @@ class OnboardingController: UIViewController {
     }
 }
 
+//MARK: Onboarding View Delegate | DataSource
+
 extension OnboardingController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         viewModel.onboardings.count
@@ -138,11 +144,15 @@ extension OnboardingController: UICollectionViewDelegate, UICollectionViewDataSo
     
 }
 
+//MARK: Onboarding View FlowLayout
+
 extension OnboardingController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return collectionView.bounds.size
     }
 }
+
+//MARK: Onboarding Scroll Delegate
 
 extension OnboardingController: UIScrollViewDelegate {
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
