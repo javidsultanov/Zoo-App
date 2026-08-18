@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "istanbul_wolf.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

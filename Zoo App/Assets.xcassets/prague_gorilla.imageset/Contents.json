@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "prague_gorilla.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

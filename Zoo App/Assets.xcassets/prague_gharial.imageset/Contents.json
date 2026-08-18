@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "prague_gharial.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

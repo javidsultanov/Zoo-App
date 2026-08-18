@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "istanbul_lemur.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

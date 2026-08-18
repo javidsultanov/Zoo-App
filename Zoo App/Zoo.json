@@ -1,0 +1,512 @@
+[
+    {
+        "zooImage": "baku_zoo",
+        "zooName": "Baku Zoological Park",
+        "zooCity": "Baku, Azerbaijan",
+        "zooID": 1,
+        "zooInfo": "Baku Zoological Park is a modern and family-friendly wildlife park located in the capital of Azerbaijan. This zoo is a home to animals from different parts of the world and provides them with safe habitats, professional veterinary care, and balanced nutrition. Its main mission is to protect wildlife, support conservation programs, and help visitors learn more about animals and their natural environments.",
+        "zooAnimals": [
+            {
+                "animalImage": "baku_lion",
+                "animalID": 1,
+                "animalName": "Mufasa",
+                "animalSpecies": "African Lion",
+                "animalAge": 7,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Mufasa is a confident and powerful African lion. He was born in a wildlife conservation center and arrived at the zoo when he was two years old. Mufasa enjoys resting in the sun, playing with large enrichment toys, and watching visitors from his favorite rock. His keepers describe him as intelligent, calm, and very curious. His favorite food is beef."
+            },
+            {
+                "animalImage": "baku_elephant",
+                "animalID": 2,
+                "animalName": "Tantor",
+                "animalSpecies": "African Elephant",
+                "animalAge": 12,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Tantor is a gentle and friendly African elephant. He is highly social and has a close relationship with his keepers. He enjoys taking mud baths, playing with water, and using his trunk to explore new objects. Tantor can recognize several voice commands and loves receiving apples as a special treat. His daily diet includes grass, hay, vegetables, branches, and fruit."
+            },
+            {
+                "animalImage": "baku_bear",
+                "animalID": 3,
+                "animalName": "Boog",
+                "animalSpecies": "Brown Bear",
+                "animalAge": 9,
+                "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                "animalDescription": "Boog is an active and curious brown bear. He was rescued as a young cub after being found without his mother. He loves swimming, climbing wooden structures, and searching for food hidden by his keepers. Boog is especially energetic in the morning and usually sleeps during the warmest part of the day. His favorite foods are fish, berries, honey, nuts, and seasonal fruit."
+            },
+            {
+                "animalImage": "baku_monkey",
+                "animalID": 4,
+                "animalName": "Caesar",
+                "animalSpecies": "Common Chimpanzee",
+                "animalAge": 6,
+                "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                "animalDescription": "Caesar is a playful and intelligent chimpanzee. He enjoys solving puzzles, climbing ropes, and communicating with other chimpanzees through sounds and gestures. Caesar is very observant and often copies the actions of his keepers. He has a cheerful personality and likes playing with cardboard boxes. His diet includes fruit, vegetables, seeds, nuts, and small amounts of protein."
+            },
+            {
+                "animalImage": "baku_giraffe",
+                "animalID": 5,
+                "animalName": "Melman",
+                "animalSpecies": "Masai Giraffe",
+                "animalAge": 8,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Melman is a calm and elegant Masai giraffe. He is one of the tallest animals in the zoo and can easily reach leaves growing high above the ground. Melman enjoys spending time with other giraffes and is comfortable around his keepers. He is known for his gentle nature and distinctive dark spots. His favorite foods are acacia leaves, fresh branches, carrots, and lettuce."
+            },
+            {
+                "animalImage": "baku_tiger",
+                "animalID": 6,
+                "animalName": "Shere Khan",
+                "animalSpecies": "Amur Tiger",
+                "animalAge": 5,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Shere Khan is a strong and energetic Amur tiger. He was born in a wildlife conservation center and later moved to Baku Zoological Park. Shere Khan enjoys swimming, exploring his habitat, and playing with enrichment toys. Although he usually prefers to spend time alone, he has a calm relationship with his keepers. His favorite foods are beef, chicken, and other types of fresh meat."
+            },
+            {
+                "animalImage": "baku_flamingo",
+                "animalID": 7,
+                "animalName": "Pink Floyd",
+                "animalSpecies": "Greater Flamingo",
+                "animalAge": 4,
+                "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                "animalDescription": "Pink Floyd is a friendly and social greater flamingo. He spends most of his time together with the other flamingos near the water. Pink Floyd enjoys walking through shallow pools, cleaning his feathers, and resting on one leg. His beautiful pink color comes from the natural pigments in his food. He eats algae, seeds, small insects, and tiny crustaceans."
+            }
+        ]
+    },
+    
+    {
+        "zooImage": "tbilisi_zoo",
+        "zooName": "Tbilisi Zoological Park",
+        "zooCity": "Tbilisi, Georgia",
+        "zooID": 2,
+        "zooInfo": "Tbilisi Zoological Park is one of the oldest and largest zoological parks in Georgia. Located in the country's capital, the zoo introduces visitors to animals from the Caucasus and many other regions of the world. Its work combines professional animal care, environmental education, scientific research, and the protection of rare species. The zoo pays special attention to wildlife native to Georgia and helps visitors understand why natural habitats and endangered animals must be protected.",
+        "zooAnimals": [
+            {
+                "animalImage": "tbilisi_white_lion",
+                "animalID": 8,
+                "animalName": "Aslan",
+                "animalSpecies": "White Lion",
+                "animalAge": 6,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Aslan is a calm and confident white lion with a pale coat and a powerful build. He enjoys resting on warm rocks, walking around his territory, and watching visitors from the highest point of his habitat. His keepers describe him as observant, patient, and especially active in the early morning. Aslan takes part in enrichment activities that encourage his natural hunting behavior. His daily diet mainly includes carefully prepared portions of beef and poultry."
+            },
+            {
+                "animalImage": "tbilisi_elephant",
+                "animalID": 9,
+                "animalName": "Dumbo",
+                "animalSpecies": "Indian Elephant",
+                "animalAge": 15,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Dumbo is an intelligent and social Indian elephant who has built a trusting relationship with her keepers. She enjoys taking mud baths, spraying water with her trunk, and examining unfamiliar objects placed in her enclosure. Dumbo can recognize several voice commands and willingly participates in health checks. She spends much of her day walking, eating, and interacting with enrichment toys. Her diet includes hay, grass, fresh branches, vegetables, and small portions of fruit."
+            },
+            {
+                "animalImage": "tbilisi_rhino",
+                "animalID": 10,
+                "animalName": "Rocksteady",
+                "animalSpecies": "White Rhinoceros",
+                "animalAge": 10,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Rocksteady is a peaceful white rhinoceros with a curious and independent personality. Although he looks heavy and powerful, he moves carefully around his habitat and often follows familiar sounds made by his keepers. Rocksteady likes resting in soft sand, cooling himself in mud, and rubbing against large wooden posts. He is most active during the cooler hours of the day. His meals consist of grass, hay, leafy branches, and specially selected vegetables."
+            },
+            {
+                "animalImage": "tbilisi_leopard",
+                "animalID": 11,
+                "animalName": "Bagheera",
+                "animalSpecies": "Caucasian Leopard",
+                "animalAge": 5,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Bagheera is a quiet and agile Caucasian leopard with a mysterious and confident personality. He enjoys climbing tall platforms, moving through shaded areas, and observing everything around him from hidden places. His keepers prepare scent trails and hide food to encourage exploration and natural hunting skills. Bagheera usually prefers to spend time alone and becomes especially active in the evening. His diet includes fresh meat provided according to a carefully planned feeding schedule."
+            },
+            {
+                "animalImage": "tbilisi_hippo",
+                "animalID": 12,
+                "animalName": "Gloria",
+                "animalSpecies": "Hippopotamus",
+                "animalAge": 11,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Gloria is a relaxed hippopotamus who spends a large part of the day resting in the water. She enjoys slowly walking along the bottom of her pool, spraying water, and sleeping in shaded areas during warm weather. In the evening, Gloria becomes more active and explores the land section of her habitat. Her keepers monitor her skin and teeth during regular health checks. She eats grass, hay, leafy vegetables, and other plant-based food."
+            },
+            {
+                "animalImage": "tbilisi_bear",
+                "animalID": 38,
+                "animalName": "Baloo",
+                "animalSpecies": "Eurasian Brown Bear",
+                "animalAge": 8,
+                "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                "animalDescription": "Baloo is a friendly and curious Eurasian brown bear who enjoys exploring every corner of his habitat. He spends his mornings climbing wooden structures, swimming, and searching for food hidden by his keepers. Baloo is especially interested in boxes filled with leaves, branches, and unfamiliar scents. During warm afternoons, he usually rests in the shade or cools down in the water. His diet includes fish, vegetables, berries, nuts, honey, fruit, and carefully prepared portions of meat."
+            },
+            {
+                "animalImage": "tbilisi_eagle",
+                "animalID": 39,
+                "animalName": "Zazu",
+                "animalSpecies": "Golden Eagle",
+                "animalAge": 6,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Zazu is a watchful golden eagle with excellent eyesight and powerful wings. He enjoys sitting on the highest branch in his aviary and carefully observing every movement below him. His keepers encourage natural behavior by placing food in different locations and introducing safe flying exercises. Zazu is calm around familiar people but remains cautious and independent. His diet consists of fresh meat, small prey items, and supplements selected to support healthy feathers and strong bones."
+            }
+        ]
+    },
+    
+    {
+        "zooImage": "istanbul_zoo",
+        "zooName": "Polonezköy Zoo",
+        "zooCity": "Istanbul, Türkiye",
+        "zooID": 3,
+        "zooInfo": "Polonezköy Zoo is a nature-focused wildlife park located in the green Beykoz district of Istanbul. The park is surrounded by forest and gives visitors an opportunity to observe animals in spacious areas that resemble natural environments. Some peaceful species can move through open sections, while predators live in specially protected habitats. Guided activities, animal observation, and educational experiences help visitors learn about responsible care, biodiversity, and respect for wildlife.",
+        "zooAnimals": [
+            {
+                "animalImage": "istanbul_giraffe",
+                "animalID": 13,
+                "animalName": "Geoffrey",
+                "animalSpecies": "Baringo Giraffe",
+                "animalAge": 7,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Geoffrey is a gentle Baringo giraffe with a calm personality and a distinctive pattern of dark spots. He enjoys walking through open areas, spending time near other giraffes, and reaching for leaves placed high above the ground. Geoffrey is comfortable around his keepers and approaches them during training and health checks. His long tongue helps him collect leaves from branches without damaging them. His favorite foods include acacia branches, lettuce, carrots, hay, and other fresh greens."
+            },
+            {
+                "animalImage": "istanbul_wolf",
+                "animalID": 14,
+                "animalName": "Akela",
+                "animalSpecies": "Gray Wolf",
+                "animalAge": 6,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Akela is an alert and intelligent gray wolf who lives in a protected forest habitat. He communicates with the other wolves through body language, scent markings, and powerful howls that can be heard across the park. Akela enjoys following new smells, running along familiar paths, and searching for food hidden by his keepers. He is cautious around unfamiliar objects but quickly learns new routines. His diet contains carefully prepared portions of fresh meat and bones."
+            },
+            {
+                "animalImage": "istanbul_lemur",
+                "animalID": 15,
+                "animalName": "King Julien",
+                "animalSpecies": "Ring-Tailed Lemur",
+                "animalAge": 4,
+                "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                "animalDescription": "King Julien is a playful ring-tailed lemur who is easy to recognize by his long black-and-white tail. He enjoys jumping between branches, sitting in the sun, and communicating with his group through sounds and facial expressions. King Julien is curious about boxes, ropes, and food puzzles introduced by his keepers. He often carries pieces of food to a quiet platform before eating them. His diet includes fruit, vegetables, leaves, seeds, and small amounts of protein."
+            },
+            {
+                "animalImage": "istanbul_fox",
+                "animalID": 16,
+                "animalName": "Nick Wilde",
+                "animalSpecies": "Red Fox",
+                "animalAge": 3,
+                "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                "animalDescription": "Nick Wilde is a quick and curious red fox with bright fur and a large bushy tail. He enjoys digging, following scent trails, and hiding small pieces of food in different parts of his habitat. Nick usually rests during the day and becomes more active when the temperature begins to fall. His keepers describe him as clever, careful, and very attentive to changes around him. He eats meat, eggs, insects, berries, fruit, and specially prepared supplements."
+            },
+            {
+                "animalImage": "istanbul_ostrich",
+                "animalID": 17,
+                "animalName": "Kevin",
+                "animalSpecies": "Common Ostrich",
+                "animalAge": 5,
+                "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                "animalDescription": "Kevin is an energetic common ostrich who enjoys running across the park's open territory. He is unable to fly, but his powerful legs allow him to move very quickly and defend himself when necessary. Kevin often investigates shiny objects and follows the movements of keepers from a safe distance. He spends time searching the ground for suitable food. His diet includes grasses, leaves, seeds, fruit, vegetables, and small insects."
+            },
+            {
+                "animalImage": "istanbul_deer",
+                "animalID": 40,
+                "animalName": "Bambi",
+                "animalSpecies": "Fallow Deer",
+                "animalAge": 4,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Bambi is a gentle fallow deer who lives in one of the park's large open forest areas. He enjoys walking with the herd, resting beneath trees, and carefully approaching new objects placed by his keepers. Bambi is most active during the morning and evening when the weather is cooler. His spotted coat helps him blend naturally with sunlight and shadows between the trees. He eats grass, leaves, fresh branches, hay, vegetables, and small pieces of seasonal fruit."
+            },
+            {
+                "animalImage": "istanbul_goat",
+                "animalID": 41,
+                "animalName": "Goatye West",
+                "animalSpecies": "Mountain Goat",
+                "animalAge": 5,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Goatye West is an energetic mountain goat with excellent balance and a fearless personality. He enjoys climbing rocks, standing on narrow platforms, and reaching leaves that other animals cannot access. His keepers regularly change the climbing structures to keep him active and interested in his surroundings. Goatye West is social, confident, and always among the first animals to investigate fresh food. His diet includes grass, hay, leaves, branches, vegetables, and mineral supplements."
+            }
+        ]
+    },
+      
+      {
+          "zooImage": "sofia_zoo",
+          "zooName": "Sofia Zoo",
+          "zooCity": "Sofia, Bulgaria",
+          "zooID": 4,
+          "zooInfo": "Sofia Zoo is the oldest and largest zoological garden in Bulgaria and is located in the country's capital. It is home to animals from many continents, including rare and endangered species cared for through international conservation programs. The zoo combines animal welfare, scientific work, public education, and environmental awareness. Its different zones introduce visitors to large mammals, primates, predators, birds, reptiles, amphibians, and aquatic life.",
+          "zooAnimals": [
+              {
+                  "animalImage": "sofia_elephant",
+                  "animalID": 18,
+                  "animalName": "Horton",
+                  "animalSpecies": "Asian Elephant",
+                  "animalAge": 18,
+                  "animalDiet": "Herbivore (Plant-Eaters)",
+                  "animalDescription": "Horton is a patient and intelligent Asian elephant who enjoys interacting with his keepers during daily training. He uses his trunk to examine objects, collect food, spray water, and communicate with other elephants. Horton particularly likes mud baths and large enrichment toys that require careful problem solving. Regular training allows the veterinary team to examine his feet, skin, and teeth safely. He eats hay, grass, fresh branches, vegetables, and carefully limited portions of fruit."
+              },
+              {
+                  "animalImage": "sofia_rhino",
+                  "animalID": 19,
+                  "animalName": "Rocky Balboa",
+                  "animalSpecies": "White Rhinoceros",
+                  "animalAge": 12,
+                  "animalDiet": "Herbivore (Plant-Eaters)",
+                  "animalDescription": "Rocky Balboa is a strong but peaceful white rhinoceros who prefers calm surroundings. He spends his mornings eating, walking through his habitat, and investigating scents left on trees and rocks. During warm afternoons, Rocky enjoys resting in the shade or covering his skin with protective mud. His keepers use positive training to monitor his health without causing unnecessary stress. His daily food consists mainly of hay, grass, leafy branches, and vegetables."
+              },
+              {
+                  "animalImage": "sofia_tiger",
+                  "animalID": 20,
+                  "animalName": "Tigger",
+                  "animalSpecies": "Bengal Tiger",
+                  "animalAge": 7,
+                  "animalDiet": "Carnivore (Meat-Eaters)",
+                  "animalDescription": "Tigger is a powerful Bengal tiger with a bright orange coat and dark individual stripes. He enjoys swimming, exploring dense vegetation, and following scent trails prepared by the animal care team. Tigger is usually solitary and spends part of the day resting in a quiet area away from visitors. He becomes especially focused when enrichment activities imitate natural hunting challenges. His meals include fresh meat and bones selected according to his nutritional and dental needs."
+              },
+              {
+                  "animalImage": "sofia_snow_leopard",
+                  "animalID": 21,
+                  "animalName": "Tai Lung",
+                  "animalSpecies": "Snow Leopard",
+                  "animalAge": 5,
+                  "animalDiet": "Carnivore (Meat-Eaters)",
+                  "animalDescription": "Tai Lung is a graceful snow leopard adapted to cold and mountainous environments. His thick fur, wide paws, and long tail help him move across rocks and maintain balance while climbing. Tai Lung enjoys resting on high platforms where he can quietly observe everything below him. His keepers hide food and introduce new scents to encourage natural movement and exploration. He eats carefully prepared portions of meat and receives regular veterinary examinations."
+              },
+              {
+                  "animalImage": "sofia_flamingo",
+                  "animalID": 22,
+                  "animalName": "Flamingo Starr",
+                  "animalSpecies": "Greater Flamingo",
+                  "animalAge": 6,
+                  "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                  "animalDescription": "Flamingo Starr is a social greater flamingo who lives near the zoo's water area with the rest of his flock. He spends his time walking through shallow water, filtering food with his specially shaped beak, and carefully cleaning his feathers. Flamingo Starr often rests on one leg to conserve body heat and energy. His pink color comes from natural pigments contained in his food. He eats algae, seeds, small aquatic organisms, insects, and balanced supplements."
+              },
+              {
+                  "animalImage": "sofia_lion",
+                  "animalID": 42,
+                  "animalName": "Alex",
+                  "animalSpecies": "African Lion",
+                  "animalAge": 7,
+                  "animalDiet": "Carnivore (Meat-Eaters)",
+                  "animalDescription": "Alex is a confident and expressive African lion who enjoys being the center of attention. He spends much of the day resting with his pride but becomes highly active when new scents or enrichment toys appear. Alex likes walking through tall grass, stretching on large wooden platforms, and watching visitors from his favorite rock. His keepers describe him as intelligent, powerful, and surprisingly playful. His diet includes carefully measured portions of beef, poultry, and bones that help maintain healthy teeth and muscles."
+              },
+              {
+                  "animalImage": "sofia_zebra",
+                  "animalID": 43,
+                  "animalName": "Marty",
+                  "animalSpecies": "Plains Zebra",
+                  "animalAge": 6,
+                  "animalDiet": "Herbivore (Plant-Eaters)",
+                  "animalDescription": "Marty is a cheerful plains zebra with an individual stripe pattern that makes him easy to recognize. He enjoys running across the open habitat, staying close to the herd, and rolling in dry sand. Marty is curious about unfamiliar sounds and often approaches enrichment objects before the other zebras. His keepers monitor his hooves and teeth through regular positive training sessions. His daily food consists of grass, hay, leafy branches, vegetables, and specially balanced herbivore pellets."
+              }
+          ]
+      },
+      
+      {
+          "zooImage": "prague_zoo",
+          "zooName": "Prague Zoo",
+          "zooCity": "Prague, Czech Republic",
+          "zooID": 5,
+          "zooInfo": "Prague Zoo is a major zoological and conservation institution located in the Troja district of the Czech capital. Its large territory contains specialized habitats such as Elephant Valley, the Dja Reserve for gorillas, the African House, the Indonesian Jungle, and the Gharial House. The zoo participates in international breeding programs and supports wildlife conservation projects in different parts of the world. Its modern exhibits are designed to encourage natural behavior while helping visitors understand the environments animals depend on.",
+          "zooAnimals": [
+              {
+                  "animalImage": "prague_elephant",
+                  "animalID": 23,
+                  "animalName": "Ellie",
+                  "animalSpecies": "Indian Elephant",
+                  "animalAge": 14,
+                  "animalDiet": "Herbivore (Plant-Eaters)",
+                  "animalDescription": "Ellie is a friendly Indian elephant who lives with a family group in Elephant Valley. She enjoys walking long distances, bathing, covering her skin with sand, and using her trunk to solve food puzzles. Ellie learns quickly and cooperates with keepers during routine health checks. She communicates with the herd through touch, sound, and low-frequency calls that humans cannot always hear. Her diet includes hay, grass, bark, leafy branches, vegetables, and small portions of fruit."
+              },
+              {
+                  "animalImage": "prague_gorilla",
+                  "animalID": 24,
+                  "animalName": "King Kong",
+                  "animalSpecies": "Western Lowland Gorilla",
+                  "animalAge": 9,
+                  "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                  "animalDescription": "King Kong is an intelligent western lowland gorilla who lives in a social family group. He enjoys climbing, examining natural materials, and watching the behavior of the other gorillas around him. King Kong can use simple tools and quickly understands enrichment activities that require patience and memory. His keepers describe him as calm, observant, and protective of younger group members. His diet contains leafy vegetables, branches, herbs, fruit, seeds, and small amounts of protein."
+              },
+              {
+                  "animalImage": "prague_gharial",
+                  "animalID": 25,
+                  "animalName": "Tick-Tock",
+                  "animalSpecies": "Gharial",
+                  "animalAge": 13,
+                  "animalDiet": "Carnivore (Meat-Eaters)",
+                  "animalDescription": "Tick-Tock is a long-snouted gharial specially adapted for catching fish in rivers. He spends much of his time resting in warm areas or moving slowly through the water with powerful strokes of his tail. Unlike broader-snouted crocodiles, his narrow jaws are designed to move quickly through water. Tick-Tock is usually calm and reacts carefully to activity around his habitat. His diet is based mainly on different types of fish and appropriate nutritional supplements."
+              },
+              {
+                  "animalImage": "prague_giraffe",
+                  "animalID": 26,
+                  "animalName": "Bridget",
+                  "animalSpecies": "Rothschild's Giraffe",
+                  "animalAge": 8,
+                  "animalDiet": "Herbivore (Plant-Eaters)",
+                  "animalDescription": "Bridget is an elegant Rothschild's giraffe who lives in the African House. She enjoys calmly walking with the herd and using her long neck and tongue to reach leaves placed at different heights. Bridget is comfortable participating in simple training that helps keepers examine her body and hooves. Her unique spot pattern can be used to identify her from the other giraffes. She eats leafy branches, hay, fresh greens, carrots, and specially balanced giraffe food."
+              },
+              {
+                  "animalImage": "prague_polar_bear",
+                  "animalID": 27,
+                  "animalName": "Ice Bear",
+                  "animalSpecies": "Polar Bear",
+                  "animalAge": 16,
+                  "animalDiet": "Carnivore (Meat-Eaters)",
+                  "animalDescription": "Ice Bear is a large and playful polar bear who enjoys swimming and investigating objects placed in his habitat. During warm weather, his keepers provide shade, cool water, and frozen enrichment containing pieces of food. Ice Bear uses his powerful paws to move toys, break ice, and pull objects from the pool. He often rests after swimming and becomes active again during feeding sessions. His diet includes fish, meat, and supplements prepared according to veterinary recommendations."
+              },
+              {
+                  "animalImage": "prague_hippo",
+                  "animalID": 44,
+                  "animalName": "Moto Moto",
+                  "animalSpecies": "Hippopotamus",
+                  "animalAge": 12,
+                  "animalDiet": "Herbivore (Plant-Eaters)",
+                  "animalDescription": "Moto Moto is a large and relaxed hippopotamus with a calm but confident personality. He spends most warm days resting in the pool, walking along the bottom, and occasionally spraying water across his habitat. In the evening, Moto Moto becomes more active and explores the land area in search of fresh food. His keepers regularly examine his skin, mouth, and powerful teeth. He eats grass, hay, leafy vegetables, and balanced plant-based food prepared according to his nutritional needs."
+              },
+              {
+                  "animalImage": "prague_macaw",
+                  "animalID": 45,
+                  "animalName": "Blu",
+                  "animalSpecies": "Hyacinth Macaw",
+                  "animalAge": 9,
+                  "animalDiet": "Herbivore (Plant-Eaters)",
+                  "animalDescription": "Blu is a bright and intelligent hyacinth macaw with deep blue feathers and a powerful curved beak. He enjoys flying between perches, opening puzzle feeders, and communicating with other parrots through loud calls. Blu quickly recognizes familiar keepers and often imitates sounds that attract his attention. His strong beak allows him to break hard nuts that many other birds cannot open. His diet includes nuts, seeds, fruit, vegetables, fresh branches, and carefully selected vitamin supplements."
+              }
+          ]
+      },
+      
+      {
+          "zooImage": "berlin_zoo",
+          "zooName": "Zoo Berlin",
+          "zooCity": "Berlin, Germany",
+          "zooID": 6,
+          "zooInfo": "Zoo Berlin is Germany's oldest zoological garden and is located in the center of the country's capital. It is internationally known for its exceptionally diverse animal collection and its work with endangered species. The zoo contains specialized environments for giant pandas, large cats, great apes, rhinoceroses, penguins, seals, and many other animals. Modern habitats, research, breeding programs, and worldwide conservation projects form an important part of its mission.",
+          "zooAnimals": [
+              {
+                  "animalImage": "berlin_panda",
+                  "animalID": 28,
+                  "animalName": "Po",
+                  "animalSpecies": "Giant Panda",
+                  "animalAge": 13,
+                  "animalDiet": "Herbivore (Plant-Eaters)",
+                  "animalDescription": "Po is a calm giant panda who is one of the most recognized residents of Zoo Berlin. He spends many hours each day eating bamboo and carefully selecting the softest leaves and stems. Po also enjoys climbing, resting on wooden platforms, and exploring scents placed in his habitat. His keepers monitor his behavior, weight, and health as part of an international conservation program. Bamboo forms most of his diet, although he may also receive specially prepared panda food."
+              },
+              {
+                  "animalImage": "berlin_gorilla",
+                  "animalID": 29,
+                  "animalName": "Donkey Kong",
+                  "animalSpecies": "Western Lowland Gorilla",
+                  "animalAge": 69,
+                  "animalDiet": "Herbivore (Plant-Eaters)",
+                  "animalDescription": "Donkey Kong is a gentle western lowland gorilla and one of the oldest residents of Zoo Berlin. Because of his advanced age, he prefers quiet surroundings and receives food that is easy to eat and carefully adapted to his needs. Donkey Kong enjoys leafy vegetables, herbs, and soft pieces of fruit while avoiding unnecessary sugar. His keepers closely monitor his movement, hearing, appetite, and comfort. He has a calm but independent personality and has formed strong relationships with the people who care for him."
+              },
+              {
+                  "animalImage": "berlin_lion",
+                  "animalID": 30,
+                  "animalName": "Simba",
+                  "animalSpecies": "African Lion",
+                  "animalAge": 8,
+                  "animalDiet": "Carnivore (Meat-Eaters)",
+                  "animalDescription": "Simba is a powerful African lion who lives as part of a social pride. He spends much of the day resting but becomes highly attentive when the group communicates or when enrichment is introduced. Simba enjoys following scent trails, moving through tall grass, and watching his surroundings from raised areas. His keepers use protected training to observe his health and behavior safely. He eats fresh meat and bones in portions planned to support his muscles, teeth, and overall condition."
+              },
+              {
+                  "animalImage": "berlin_tiger",
+                  "animalID": 31,
+                  "animalName": "Rajah",
+                  "animalSpecies": "Sumatran Tiger",
+                  "animalAge": 6,
+                  "animalDiet": "Carnivore (Meat-Eaters)",
+                  "animalDescription": "Rajah is an athletic Sumatran tiger with a dark coat and closely spaced stripes. He enjoys moving through dense vegetation, swimming, and exploring hidden paths within his habitat. As a naturally solitary animal, Rajah prefers having several quiet spaces where he can rest without disturbance. His keepers provide scent enrichment, durable toys, and feeding challenges that encourage natural behavior. His diet consists of fresh meat, bones, and necessary veterinary supplements."
+              },
+              {
+                  "animalImage": "berlin_penguin",
+                  "animalID": 32,
+                  "animalName": "Skipper",
+                  "animalSpecies": "King Penguin",
+                  "animalAge": 7,
+                  "animalDiet": "Carnivore (Meat-Eaters)",
+                  "animalDescription": "Skipper is a social king penguin who lives with a colony in a cool, carefully controlled environment. He enjoys swimming, following the other penguins, and standing close to the group while resting. Skipper can recognize familiar keepers and becomes excited when feeding time approaches. His streamlined body and strong flippers allow him to move gracefully through the water. He eats different species of fish selected to provide the energy and nutrients needed for healthy feathers."
+              },
+              {
+                  "animalImage": "berlin_hippo",
+                  "animalID": 46,
+                  "animalName": "Fiona",
+                  "animalSpecies": "Hippopotamus",
+                  "animalAge": 8,
+                  "animalDiet": "Herbivore (Plant-Eaters)",
+                  "animalDescription": "Fiona is a friendly hippopotamus who enjoys spending hours swimming and resting beneath the surface of her pool. She often approaches the viewing area slowly and surprises visitors by moving through the water with remarkable grace. Fiona becomes more active later in the day when she walks onto land to eat. Her keepers use training to examine her mouth, teeth, skin, and general health. Her diet includes grass, hay, vegetables, leafy plants, and specially balanced herbivore pellets."
+              },
+              {
+                  "animalImage": "berlin_sloth",
+                  "animalID": 47,
+                  "animalName": "Flash",
+                  "animalSpecies": "Linne's Two-Toed Sloth",
+                  "animalAge": 6,
+                  "animalDiet": "Herbivore (Plant-Eaters)",
+                  "animalDescription": "Flash is a calm two-toed sloth who moves through the trees at his own wonderfully slow pace. He spends much of the day hanging upside down, sleeping, and carefully selecting leaves within reach. Flash becomes more active in the evening and can move surprisingly well when he decides to change branches. His keepers monitor his claws, weight, digestion, and the condition of his fur. He eats leaves, vegetables, flowers, and small portions of fruit prepared especially for sloths."
+              }
+          ]
+      },
+      
+      {
+          "zooImage": "vienna_zoo",
+          "zooName": "Schönbrunn Zoo",
+          "zooCity": "Vienna, Austria",
+          "zooID": 7,
+          "zooInfo": "Schönbrunn Zoo is located in Vienna within the historic Schönbrunn Palace gardens and is recognized as the oldest continuously operating zoo in the world. Today it combines its historic setting with modern habitats, scientific research, international breeding programs, and high standards of animal care. Visitors can discover hundreds of species representing tropical forests, mountain regions, polar environments, deserts, and aquatic ecosystems. Education and the protection of endangered wildlife are central parts of the zoo's work.",
+          "zooAnimals": [
+              {
+                  "animalImage": "vienna_panda",
+                  "animalID": 33,
+                  "animalName": "Pan-Pan",
+                  "animalSpecies": "Giant Panda",
+                  "animalAge": 26,
+                  "animalDiet": "Herbivore (Plant-Eaters)",
+                  "animalDescription": "Pan-Pan is an experienced and calm giant panda who has played an important role in the zoo's conservation work. She spends a large part of her day eating bamboo and resting in comfortable positions. Pan-Pan is selective about the branches she eats and carefully removes harder outer layers before reaching softer sections. Her keepers observe her appetite, movement, and behavior every day. Bamboo is her main food, together with small amounts of specially prepared panda nutrition."
+              },
+              {
+                  "animalImage": "vienna_koala",
+                  "animalID": 34,
+                  "animalName": "Buster Moon",
+                  "animalSpecies": "Koala",
+                  "animalAge": 5,
+                  "animalDiet": "Herbivore (Plant-Eaters)",
+                  "animalDescription": "Buster Moon is a quiet koala who spends most of his time resting among eucalyptus branches. Koalas conserve energy by sleeping for many hours because eucalyptus leaves provide relatively little energy and require specialized digestion. Buster becomes more active when fresh branches arrive and carefully selects leaves by smell. His keepers monitor the quality and variety of eucalyptus available to him. He receives fresh leaves every day and always has access to clean water."
+              },
+              {
+                  "animalImage": "vienna_orangutan",
+                  "animalID": 35,
+                  "animalName": "King Louie",
+                  "animalSpecies": "Bornean Orangutan",
+                  "animalAge": 12,
+                  "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                  "animalDescription": "King Louie is an intelligent Bornean orangutan with a thoughtful and curious personality. He enjoys climbing ropes, building comfortable nests, and solving puzzles that require him to use simple tools. King Louie carefully observes the actions of keepers and other orangutans and often discovers new solutions through patience. Enrichment activities change regularly to keep him mentally and physically active. His diet includes vegetables, leafy plants, fruit, seeds, nuts, and small amounts of protein."
+              },
+              {
+                  "animalImage": "vienna_sea_lion",
+                  "animalID": 36,
+                  "animalName": "Flipper",
+                  "animalSpecies": "South American Sea Lion",
+                  "animalAge": 9,
+                  "animalDiet": "Carnivore (Meat-Eaters)",
+                  "animalDescription": "Flipper is an energetic South American sea lion who enjoys swimming quickly, diving, and interacting with the other members of his group. During training, he follows visual signals that allow keepers to examine his eyes, teeth, flippers, and general condition. Flipper is playful and often carries floating objects around the pool. He can remain underwater for several minutes before returning to the surface. His diet includes herring, mackerel, and other nutritious fish."
+              },
+              {
+                  "animalImage": "vienna_capybara",
+                  "animalID": 37,
+                  "animalName": "Capy Potter",
+                  "animalSpecies": "Capybara",
+                  "animalAge": 4,
+                  "animalDiet": "Herbivore (Plant-Eaters)",
+                  "animalDescription": "Capy Potter is a calm and friendly capybara who lives in the zoo's South American area. He enjoys swimming, resting close to the water, and spending time with other members of his social group. Capy Potter uses water to cool down and to feel safe when something unfamiliar appears nearby. His keepers describe him as relaxed, observant, and strongly interested in fresh food. He eats grass, hay, leafy vegetables, aquatic plants, and specially balanced pellets."
+              },
+              {
+                  "animalImage": "vienna_elephant",
+                  "animalID": 48,
+                  "animalName": "Manny",
+                  "animalSpecies": "African Elephant",
+                  "animalAge": 17,
+                  "animalDiet": "Herbivore (Plant-Eaters)",
+                  "animalDescription": "Manny is a large and gentle African elephant with a protective and patient personality. He enjoys walking with the herd, moving heavy enrichment objects, taking mud baths, and collecting branches with his trunk. Manny responds calmly to familiar voice commands and participates in training that helps keepers monitor his feet, teeth, and general health. He is especially interested in fresh leaves and enjoys searching for food hidden around the habitat. His diet includes hay, grass, bark, branches, vegetables, and limited portions of fruit."
+              },
+              {
+                  "animalImage": "vienna_penguin",
+                  "animalID": 49,
+                  "animalName": "Mumble",
+                  "animalSpecies": "Emperor Penguin",
+                  "animalAge": 7,
+                  "animalDiet": "Carnivore (Meat-Eaters)",
+                  "animalDescription": "Mumble is a lively emperor penguin who is famous among his keepers for his unusual little dance-like steps. He enjoys swimming with the colony, diving after fish, and standing close to other penguins in the cooled habitat. Mumble recognizes feeding routines and quickly moves toward familiar keepers when food arrives. His thick feathers and layer of body fat help protect him from low temperatures. He eats fish and other seafood selected to provide enough energy for swimming and maintaining healthy feathers."
+              }
+          ]
+      }
+]

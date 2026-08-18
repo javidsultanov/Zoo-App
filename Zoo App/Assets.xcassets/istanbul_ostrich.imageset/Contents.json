@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "istanbul_ostrich.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
