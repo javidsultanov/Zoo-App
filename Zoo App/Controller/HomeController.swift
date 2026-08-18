@@ -18,12 +18,13 @@ class HomeController: UIViewController {
         let layout = UICollectionViewFlowLayout()
         
         let view = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        view.isHidden = true
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
     
     private lazy var toggleButton: UIBarButtonItem = {
-        let button = UIBarButtonItem(image: UIImage(systemName: "list.bullet"),
+        let button = UIBarButtonItem(image: UIImage(systemName: "square.grid.2x2"),
                                      style: .plain,
                                      target: self,
                                      action: #selector(toggleButtonTapped))
