@@ -8,17 +8,14 @@
 import UIKit
 
 class HomeController: UIViewController {
-    private lazy var zooTableView: UITableView = {
-        let view = UITableView()
-        view.translatesAutoresizingMaskIntoConstraints = false
-        return view
-    }()
-    
     private lazy var zooCollectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
+        layout.minimumLineSpacing = 12
+        layout.minimumInteritemSpacing = 12
         
         let view = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        view.isHidden = true
+        view.isHidden = false
+        view.delegate = self
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -30,6 +27,8 @@ class HomeController: UIViewController {
                                      action: #selector(toggleButtonTapped))
         return button
     }()
+    
+    private var currentMode: ViewMode = .list
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,15 +45,9 @@ class HomeController: UIViewController {
     }
     
     private func configureConstraints() {
-        view.addSubview(zooTableView)
         view.addSubview(zooCollectionView)
         
         NSLayoutConstraint.activate([
-            zooTableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
-            zooTableView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            zooTableView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.92),
-            zooTableView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -12),
-            
             zooCollectionView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             zooCollectionView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             zooCollectionView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.92),
@@ -63,14 +56,30 @@ class HomeController: UIViewController {
     }
     
     @objc private func toggleButtonTapped() {
-        if zooTableView.isHidden {
-            zooTableView.isHidden = false
-            zooCollectionView.isHidden = true
+        switch currentMode {
+        case .grid:
+            currentMode = .list
             toggleButton.image = UIImage(systemName: "square.grid.2x2")
-        } else {
-            zooTableView.isHidden = true
-            zooCollectionView.isHidden = false
+        case .list:
+            currentMode = .grid
             toggleButton.image = UIImage(systemName: "list.bullet")
+        }
+        
+        zooCollectionView.performBatchUpdates(zooCollectionView.collectionViewLayout.invalidateLayout,
+                                              completion: nil)
+    }
+}
+
+extension HomeController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let containerWidth = zooCollectionView.frame.width
+        
+        switch currentMode {
+        case .grid:
+            let width = (containerWidth - 12) / 2
+            return .init(width: width, height: width)
+        case .list:
+            return .init(width: containerWidth, height: 80)
         }
     }
 }
