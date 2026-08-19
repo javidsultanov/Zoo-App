@@ -13,7 +13,7 @@ class HomeViewModel {
     private let manager = ZooFileManager()
     
     func fetchZoos() {
-        zoos = manager.zoos
         manager.getZooItems()
+        zoos = manager.zoos
     }
 }

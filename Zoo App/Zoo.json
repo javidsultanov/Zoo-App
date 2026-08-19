@@ -147,10 +147,10 @@
     
     {
         "zooImage": "istanbul_zoo",
-        "zooName": "Polonezköy Zoo",
-        "zooCity": "Istanbul, Türkiye",
+        "zooName": "Polonezkoy Zoo",
+        "zooCity": "Istanbul, Turkey",
         "zooID": 3,
-        "zooInfo": "Polonezköy Zoo is a nature-focused wildlife park located in the green Beykoz district of Istanbul. The park is surrounded by forest and gives visitors an opportunity to observe animals in spacious areas that resemble natural environments. Some peaceful species can move through open sections, while predators live in specially protected habitats. Guided activities, animal observation, and educational experiences help visitors learn about responsible care, biodiversity, and respect for wildlife.",
+        "zooInfo": "Polonezkoy Zoo is a nature-focused wildlife park located in the green Beykoz district of Istanbul. The park is surrounded by forest and gives visitors an opportunity to observe animals in spacious areas that resemble natural environments. Some peaceful species can move through open sections, while predators live in specially protected habitats. Guided activities, animal observation, and educational experiences help visitors learn about responsible care, biodiversity, and respect for wildlife.",
         "zooAnimals": [
             {
                 "animalImage": "istanbul_giraffe",
@@ -439,10 +439,10 @@
     
     {
         "zooImage": "vienna_zoo",
-        "zooName": "Schönbrunn Zoo",
+        "zooName": "Schonbrunn Zoo",
         "zooCity": "Vienna, Austria",
         "zooID": 7,
-        "zooInfo": "Schönbrunn Zoo is located in Vienna within the historic Schönbrunn Palace gardens and is recognized as the oldest continuously operating zoo in the world. Today it combines its historic setting with modern habitats, scientific research, international breeding programs, and high standards of animal care. Visitors can discover hundreds of species representing tropical forests, mountain regions, polar environments, deserts, and aquatic ecosystems. Education and the protection of endangered wildlife are central parts of the zoo's work.",
+        "zooInfo": "Schonbrunn Zoo is located in Vienna within the historic Schonbrunn Palace gardens and is recognized as the oldest continuously operating zoo in the world. Today it combines its historic setting with modern habitats, scientific research, international breeding programs, and high standards of animal care. Visitors can discover hundreds of species representing tropical forests, mountain regions, polar environments, deserts, and aquatic ecosystems. Education and the protection of endangered wildlife are central parts of the zoo's work.",
         "zooAnimals": [
             {
                 "animalImage": "vienna_panda",

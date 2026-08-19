@@ -14,8 +14,12 @@ class HomeController: UIViewController {
         layout.minimumInteritemSpacing = 12
         
         let view = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        view.backgroundColor = .systemGreen
+        view.register(ZooListCell.self, forCellWithReuseIdentifier: "ZooListCell")
+        view.register(ZooGridCell.self, forCellWithReuseIdentifier: "ZooGridCell")
         view.isHidden = false
         view.delegate = self
+        view.dataSource = self
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -29,16 +33,19 @@ class HomeController: UIViewController {
     }()
     
     private var currentMode: ViewMode = .list
+    
+    private let viewModel = HomeViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         configureUI()
         configureConstraints()
+        configureViewModel()
     }
     
     private func configureUI() {
-        view.backgroundColor = .secondarySystemBackground
+        view.backgroundColor = .systemGreen
         navigationItem.title = "SAS Zoo"
         
         navigationItem.rightBarButtonItem = toggleButton
@@ -55,18 +62,58 @@ class HomeController: UIViewController {
         ])
     }
     
+    private func configureViewModel() {
+        viewModel.fetchZoos()
+        zooCollectionView.reloadData()
+    }
+    
     @objc private func toggleButtonTapped() {
         switch currentMode {
         case .grid:
             currentMode = .list
             toggleButton.image = UIImage(systemName: "square.grid.2x2")
+            
         case .list:
             currentMode = .grid
             toggleButton.image = UIImage(systemName: "list.bullet")
         }
         
-        zooCollectionView.performBatchUpdates(zooCollectionView.collectionViewLayout.invalidateLayout,
-                                              completion: nil)
+        zooCollectionView.collectionViewLayout.invalidateLayout()
+        zooCollectionView.reloadData()
+    }
+}
+
+extension HomeController: UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        viewModel.zoos.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        switch currentMode {
+        case .list:
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ZooListCell", for: indexPath) as? ZooListCell else {
+                return UICollectionViewCell()
+            }
+            
+            cell.configureCell(zoo: viewModel.zoos[indexPath.item])
+            cell.zooInfoButtonActionCallback = {
+                self.showDefaultAlert(title: self.viewModel.zoos[indexPath.item].zooName,
+                                      message: self.viewModel.zoos[indexPath.item].zooInfo)
+            }
+            return cell
+            
+        case .grid:
+            guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ZooGridCell", for: indexPath) as? ZooGridCell else {
+                return UICollectionViewCell()
+            }
+            
+            cell.configureCell(zoo: viewModel.zoos[indexPath.item])
+            cell.zooInfoButtonActionCallback = {
+                self.showDefaultAlert(title: self.viewModel.zoos[indexPath.item].zooName,
+                                      message: self.viewModel.zoos[indexPath.item].zooInfo)
+            }
+            return cell
+        }
     }
 }
 
@@ -78,8 +125,9 @@ extension HomeController: UICollectionViewDelegateFlowLayout {
         case .grid:
             let width = (containerWidth - 12) / 2
             return .init(width: width, height: width)
+            
         case .list:
-            return .init(width: containerWidth, height: 80)
+            return .init(width: containerWidth, height: 112)
         }
     }
 }
