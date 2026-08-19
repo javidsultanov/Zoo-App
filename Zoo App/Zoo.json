@@ -508,5 +508,370 @@
                 "animalDescription": "Mumble is a lively emperor penguin who is famous among his keepers for his unusual little dance-like steps. He enjoys swimming with the colony, diving after fish, and standing close to other penguins in the cooled habitat. Mumble recognizes feeding routines and quickly moves toward familiar keepers when food arrives. His thick feathers and layer of body fat help protect him from low temperatures. He eats fish and other seafood selected to provide enough energy for swimming and maintaining healthy feathers."
             }
         ]
+    },
+    
+    {
+        "zooImage": "london_zoo",
+        "zooName": "London Zoo",
+        "zooCity": "London, United Kingdom",
+        "zooID": 8,
+        "zooInfo": "London Zoo is a historic wildlife park located in Regent's Park in the heart of the British capital. Founded in 1828, it is recognized as the world's oldest scientific zoo and today forms part of an international conservation organization. The zoo is home to thousands of animals, from tiny insects and reptiles to lions, tigers, penguins, and gorillas. Its modern habitats, educational programs, scientific research, and global conservation projects help visitors understand wildlife and the importance of protecting endangered species.",
+        "zooAnimals": [
+            {
+                "animalImage": "london_lion",
+                "animalID": 50,
+                "animalName": "Scar",
+                "animalSpecies": "Asiatic Lion",
+                "animalAge": 9,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Scar is a proud and watchful Asiatic lion with a thick mane and a confident personality. He enjoys resting on warm platforms, following scent trails, and observing the rest of his pride from elevated areas. Although he looks serious, Scar often plays with heavy enrichment balls and cardboard boxes provided by his keepers. Protected training allows the veterinary team to examine him safely. His diet consists of fresh meat and bones prepared according to a carefully balanced feeding plan."
+            },
+            {
+                "animalImage": "london_gorilla",
+                "animalID": 51,
+                "animalName": "Tarzan",
+                "animalSpecies": "Western Lowland Gorilla",
+                "animalAge": 12,
+                "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                "animalDescription": "Tarzan is an intelligent western lowland gorilla who combines impressive strength with a calm and thoughtful nature. He spends his day climbing, interacting with his family group, and solving food puzzles that encourage natural foraging behavior. Tarzan carefully watches his keepers and quickly learns new routines during voluntary health checks. He also enjoys building comfortable nests from branches and soft vegetation. His diet includes leafy vegetables, fruit, bark, seeds, and specially prepared primate food."
+            },
+            {
+                "animalImage": "london_penguin",
+                "animalID": 52,
+                "animalName": "Rico",
+                "animalSpecies": "Humboldt Penguin",
+                "animalAge": 6,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Rico is a lively Humboldt penguin who is always among the first members of his colony to enter the water. He swims quickly, dives after floating toys, and communicates with other penguins through energetic calls and body movements. Rico recognizes the familiar feeding routine and follows his keepers along the edge of the pool. Regular checks help protect his feet and waterproof feathers. His meals include herring, sprat, and other small fish enriched with essential vitamins."
+            },
+            {
+                "animalImage": "london_tiger",
+                "animalID": 53,
+                "animalName": "Tony",
+                "animalSpecies": "Sumatran Tiger",
+                "animalAge": 7,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Tony is an athletic Sumatran tiger with dark stripes and a highly curious personality. He enjoys moving through dense plants, climbing wooden structures, cooling down in the water, and investigating new scents placed around his habitat. Because tigers naturally live alone, Tony has several private areas where he can rest without interruption. His keepers use positive training to monitor his movement and health. He eats carefully measured portions of fresh meat, bones, and veterinary supplements."
+            },
+            {
+                "animalImage": "london_giraffe",
+                "animalID": 54,
+                "animalName": "Stretch Armstrong",
+                "animalSpecies": "Rothschild's Giraffe",
+                "animalAge": 8,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Stretch Armstrong is a tall and gentle Rothschild's giraffe who can reach branches far above the other animals. He enjoys walking with his group, exploring hanging feeders, and carefully selecting the freshest leaves with his long tongue. Stretch participates calmly in training that helps keepers inspect his legs, hooves, and general condition. Visitors often recognize him by his light coat and irregular brown patches. His diet includes leafy branches, hay, vegetables, and balanced giraffe pellets."
+            },
+            {
+                "animalImage": "london_meerkat",
+                "animalID": 55,
+                "animalName": "Timon",
+                "animalSpecies": "Meerkat",
+                "animalAge": 4,
+                "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                "animalDescription": "Timon is a social and endlessly curious meerkat who often stands upright as the group's watchman. He enjoys digging tunnels, warming himself beneath the sun, and searching through sand for food hidden by his keepers. Timon communicates with the group using different calls that can warn of danger or announce something interesting. Despite his small size, he is confident and energetic. His diet includes insects, vegetables, eggs, seeds, and specially prepared portions of animal protein."
+            },
+            {
+                "animalImage": "london_otter",
+                "animalID": 56,
+                "animalName": "Sherlock",
+                "animalSpecies": "Asian Small-Clawed Otter",
+                "animalAge": 5,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Sherlock is a clever Asian small-clawed otter who investigates every new object placed in his habitat. He uses his sensitive paws to search beneath stones, open puzzle feeders, and examine shells before entering the water for a fast swim. Sherlock is highly social and regularly communicates with the other otters through whistles and short calls. His keepers monitor his teeth, paws, and swimming activity. He eats fish, shrimp, shellfish, insects, and other protein-rich food."
+            }
+        ]
+    },
+    
+    {
+        "zooImage": "paris_zoo",
+        "zooName": "Paris Zoological Park",
+        "zooCity": "Paris, France",
+        "zooID": 9,
+        "zooInfo": "Paris Zoological Park is a modern wildlife park situated beside the Bois de Vincennes in the French capital. The visitor route presents animals and plants through five large biozones inspired by Patagonia, Africa, Europe, Amazonia, and Madagascar. Natural landscapes, open viewpoints, and carefully planned habitats help people observe how different species interact with their environments. The park also supports scientific research, environmental education, breeding programs, and international projects dedicated to the conservation of threatened wildlife.",
+        "zooAnimals": [
+            {
+                "animalImage": "paris_jaguar",
+                "animalID": 57,
+                "animalName": "Diego",
+                "animalSpecies": "Jaguar",
+                "animalAge": 7,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Diego is a powerful jaguar with a golden coat covered in distinctive dark rosettes. He enjoys climbing, swimming, and quietly following scent trails through the tropical vegetation of his habitat. Diego usually rests during the middle of the day and becomes more active when the temperature begins to cool. His keepers provide hidden food and unfamiliar natural scents to stimulate exploration. His diet includes fresh meat, bones, and carefully selected supplements that support strong muscles and healthy teeth."
+            },
+            {
+                "animalImage": "paris_manatee",
+                "animalID": 58,
+                "animalName": "Baymax",
+                "animalSpecies": "West Indian Manatee",
+                "animalAge": 10,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Baymax is a peaceful West Indian manatee with a gentle expression and an extremely relaxed swimming style. He slowly explores his large pool, rises regularly to breathe, and uses his flexible lips to collect floating plants. Baymax is curious about familiar keepers and participates calmly in training for health observations. Although his body is heavy, he moves gracefully underwater with the help of his broad tail. His diet includes lettuce, leafy vegetables, aquatic plants, and specially balanced supplements."
+            },
+            {
+                "animalImage": "paris_lemur",
+                "animalID": 59,
+                "animalName": "Maurice",
+                "animalSpecies": "Ring-Tailed Lemur",
+                "animalAge": 5,
+                "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                "animalDescription": "Maurice is a thoughtful ring-tailed lemur who prefers observing the group before joining its energetic games. He enjoys jumping between branches, warming himself in the morning sun, and carrying food to a quiet platform. His long black-and-white tail helps him remain visible while moving through vegetation with the other lemurs. Keepers regularly change ropes and puzzle feeders to encourage activity. Maurice eats fruit, leaves, vegetables, seeds, and small portions of insects and protein."
+            },
+            {
+                "animalImage": "paris_rhino",
+                "animalID": 60,
+                "animalName": "Rhino McQueen",
+                "animalSpecies": "White Rhinoceros",
+                "animalAge": 9,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Rhino McQueen is a confident white rhinoceros who can move surprisingly quickly when something captures his attention. He spends much of the day grazing, resting in soft sand, and covering his skin with cooling mud. Large wooden posts allow him to scratch safely, while hidden food encourages him to explore the entire habitat. His keepers monitor his feet, skin, weight, and horn condition during regular training. He eats grass, hay, leafy branches, vegetables, and balanced herbivore pellets."
+            },
+            {
+                "animalImage": "paris_puma",
+                "animalID": 61,
+                "animalName": "Puss in Boots",
+                "animalSpecies": "Puma",
+                "animalAge": 6,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Puss in Boots is an agile puma with a quiet step, excellent balance, and a surprisingly playful personality. He enjoys climbing rocky ledges, resting in shaded places, and watching movement from the highest platform in his habitat. Scent trails and hidden feeding points encourage him to use his natural tracking skills. Puss usually prefers solitude but responds calmly to familiar keepers during protected training. His diet consists of fresh meat, bones, and nutritional supplements recommended by the veterinary team."
+            },
+            {
+                "animalImage": "paris_flamingo",
+                "animalID": 62,
+                "animalName": "Barbie",
+                "animalSpecies": "Greater Flamingo",
+                "animalAge": 4,
+                "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                "animalDescription": "Barbie is an elegant greater flamingo whose bright pink feathers make her easy to recognize within the flock. She spends her day walking through shallow water, filtering food with her curved beak, and carefully cleaning her feathers. Barbie is social and usually rests close to the other flamingos, sometimes standing on one leg for long periods. Keepers monitor the flock's water quality and nutrition. Her diet includes algae, seeds, tiny crustaceans, insects, and specially prepared flamingo food."
+            },
+            {
+                "animalImage": "paris_sea_lion",
+                "animalID": 63,
+                "animalName": "Aquaman",
+                "animalSpecies": "South American Sea Lion",
+                "animalAge": 8,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Aquaman is an energetic South American sea lion who moves through the water with speed and remarkable control. He enjoys diving, chasing floating toys, and interacting with other members of his social group. During training, Aquaman voluntarily presents his flippers, eyes, and mouth so keepers can examine his health without stress. He is confident, vocal, and especially excited before feeding time. His daily meals include herring, mackerel, and other nutritious fish supplemented with vitamins."
+            }
+        ]
+    },
+    
+    {
+        "zooImage": "madrid_zoo",
+        "zooName": "Aquarium de Madrid",
+        "zooCity": "Madrid, Spain",
+        "zooID": 10,
+        "zooInfo": "Zoo Aquarium de Madrid is a large zoological park located in the green Casa de Campo area of Spain's capital. Its grounds combine a traditional zoo, a public aquarium, a large aviary, and educational spaces representing wildlife from five continents. Visitors can discover hundreds of species while learning about their behavior, ecosystems, and the threats they face in nature. The zoo participates in breeding, research, rescue, and conservation programs and uses educational activities to encourage respect for animals and their habitats.",
+        "zooAnimals": [
+            {
+                "animalImage": "madrid_panda",
+                "animalID": 64,
+                "animalName": "Panda Express",
+                "animalSpecies": "Giant Panda",
+                "animalAge": 5,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Panda Express is a relaxed giant panda who becomes surprisingly quick whenever fresh bamboo arrives. He spends many hours eating, climbing low wooden structures, and sleeping in comfortable shaded areas. Using his strong paws and wrist bones, he holds bamboo securely while removing the harder outer layers. His keepers monitor his weight, appetite, teeth, and daily activity as part of the zoo's conservation work. Bamboo forms most of his diet, together with specially prepared panda cakes and small seasonal treats."
+            },
+            {
+                "animalImage": "madrid_dolphin",
+                "animalID": 65,
+                "animalName": "Echo",
+                "animalSpecies": "Bottlenose Dolphin",
+                "animalAge": 9,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Echo is a social bottlenose dolphin who communicates through whistles, clicks, and body movements. She enjoys swimming with the group, investigating floating objects, and participating in voluntary training that supports physical exercise and veterinary care. Echo uses echolocation to understand her surroundings and can identify objects without relying only on sight. Her keepers regularly examine her breathing, skin, teeth, and movement. She eats several species of fish and squid provided in carefully measured portions throughout the day."
+            },
+            {
+                "animalImage": "madrid_elephant",
+                "animalID": 66,
+                "animalName": "Babar",
+                "animalSpecies": "Sumatran Elephant",
+                "animalAge": 12,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Babar is an intelligent Sumatran elephant with a gentle personality and a strong connection to his herd. He enjoys mud baths, water sprays, long walks, and moving heavy enrichment objects with his trunk. Babar follows familiar voice signals during protected training, allowing keepers to inspect his feet, mouth, and overall condition. Food is placed around the habitat to encourage natural movement and foraging. His diet includes hay, grass, leafy branches, bark, vegetables, and limited portions of fruit."
+            },
+            {
+                "animalImage": "madrid_koala",
+                "animalID": 67,
+                "animalName": "Koalvin Klein",
+                "animalSpecies": "Koala",
+                "animalAge": 5,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Koalvin Klein is a calm koala who always appears perfectly comfortable while resting between eucalyptus branches. He sleeps for many hours to conserve energy and becomes most active when fresh leaves are delivered. Koalvin carefully smells different branches before choosing the leaves he wants to eat. His keepers check the quality and variety of eucalyptus every day and monitor his weight and digestion. His specialized diet consists almost entirely of fresh eucalyptus leaves, with clean water always available."
+            },
+            {
+                "animalImage": "madrid_orangutan",
+                "animalID": 68,
+                "animalName": "Curious George",
+                "animalSpecies": "Bornean Orangutan",
+                "animalAge": 11,
+                "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                "animalDescription": "Curious George is a clever Bornean orangutan who examines every new puzzle, rope, and container introduced to his habitat. He enjoys climbing high platforms, building sleeping nests, and using simple tools to reach hidden treats. George pays close attention to his keepers and often discovers solutions by patiently watching their movements. Changing enrichment keeps his mind and body active throughout the day. His diet includes vegetables, leafy plants, fruit, seeds, nuts, and small amounts of protein."
+            },
+            {
+                "animalImage": "madrid_bear",
+                "animalID": 69,
+                "animalName": "Paddington",
+                "animalSpecies": "Brown Bear",
+                "animalAge": 8,
+                "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                "animalDescription": "Paddington is a curious brown bear who loves exploring, swimming, and searching for food hidden around his spacious habitat. He uses his powerful paws to move logs, open sturdy boxes, and dig through piles of leaves. Although he is large, Paddington often handles unfamiliar objects with surprising care. During hot weather, he spends extra time resting in the shade or cooling down in water. His varied diet includes fish, meat, vegetables, berries, nuts, honey, and seasonal fruit."
+            },
+            {
+                "animalImage": "madrid_giraffe",
+                "animalID": 70,
+                "animalName": "Neckolas Cage",
+                "animalSpecies": "Rothschild's Giraffe",
+                "animalAge": 7,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Neckolas Cage is an elegant Rothschild's giraffe who enjoys peaceful walks and feeding beside the other members of his group. His height allows him to reach fresh leaves placed far above the ground, while his long tongue helps pull them safely from branches. Neckolas participates in calm training sessions that allow keepers to inspect his hooves and general health. He is observant and often approaches unfamiliar enrichment slowly. His meals include leafy branches, hay, vegetables, and balanced giraffe pellets."
+            }
+        ]
+    },
+    
+    {
+        "zooImage": "rome_zoo",
+        "zooName": "Bioparco di Roma",
+        "zooCity": "Rome, Italy",
+        "zooID": 11,
+        "zooInfo": "Bioparco di Roma is a historic zoological garden situated within Villa Borghese near the center of the Italian capital. The park combines mature trees, natural landscapes, modern animal habitats, and educational areas designed for visitors of different ages. Its collection includes mammals, birds, reptiles, and amphibians from many parts of the world, including several threatened species. Conservation breeding, scientific research, wildlife protection, and environmental education are central to the Bioparco's mission and its transformation into a modern conservation-focused zoo.",
+        "zooAnimals": [
+            {
+                "animalImage": "rome_tiger",
+                "animalID": 71,
+                "animalName": "Tony Montana",
+                "animalSpecies": "Sumatran Tiger",
+                "animalAge": 7,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Tony Montana is a confident Sumatran tiger whose powerful appearance is matched by excellent agility and patience. He enjoys patrolling paths through dense vegetation, climbing raised platforms, and cooling himself in the water. New scents, hanging objects, and hidden feeding points encourage Tony to investigate the entire habitat. As a naturally solitary cat, he also has several quiet areas for private rest. His diet consists of fresh meat, bones, and veterinary supplements provided according to a carefully planned schedule."
+            },
+            {
+                "animalImage": "rome_lion",
+                "animalID": 72,
+                "animalName": "Maximus",
+                "animalSpecies": "Asiatic Lion",
+                "animalAge": 9,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Maximus is a powerful Asiatic lion with a calm presence and the attitude of a true Roman emperor. He spends warm afternoons resting with his pride and becomes more active during the cooler morning and evening hours. Maximus enjoys scent trails, durable enrichment toys, and observing his surroundings from a raised rock. Protected training helps keepers monitor his movement, teeth, and general condition. His meals include fresh meat and bones in portions designed to maintain strength and healthy body weight."
+            },
+            {
+                "animalImage": "rome_rhino",
+                "animalID": 73,
+                "animalName": "Rocky Roma",
+                "animalSpecies": "White Rhinoceros",
+                "animalAge": 10,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Rocky Roma is a peaceful white rhinoceros who spends much of his day grazing and walking between sunny and shaded areas. He loves covering his skin with mud, which helps him remain cool and offers protection from insects. Rocky investigates large enrichment objects with his horn and enjoys rubbing against strong wooden posts. His keepers use calm training to inspect his feet and skin. He eats grass, hay, leafy branches, vegetables, and nutritionally balanced herbivore pellets."
+            },
+            {
+                "animalImage": "rome_sea_lion",
+                "animalID": 74,
+                "animalName": "Luca",
+                "animalSpecies": "California Sea Lion",
+                "animalAge": 8,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Luca is a playful California sea lion who seems happiest while racing through the water or carrying floating toys around his pool. He is highly social, vocal, and always attentive when familiar keepers approach. Voluntary training keeps Luca active and allows the veterinary team to examine his eyes, mouth, skin, and flippers without causing unnecessary stress. He can dive and change direction with impressive speed. His diet includes herring, mackerel, squid, and other nutritious seafood."
+            },
+            {
+                "animalImage": "rome_otter",
+                "animalID": 75,
+                "animalName": "Mario",
+                "animalSpecies": "Asian Small-Clawed Otter",
+                "animalAge": 5,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Mario is an energetic Asian small-clawed otter who turns every feeding activity into a new adventure. He enjoys swimming through narrow channels, searching under rocks, and using his sensitive front paws to open puzzle feeders. Mario communicates constantly with his family group through whistles, chirps, and quick movements. Keepers regularly introduce shells and hidden food to encourage natural problem-solving behavior. His diet includes fish, shrimp, shellfish, insects, and carefully selected portions of other animal protein."
+            },
+            {
+                "animalImage": "rome_penguin",
+                "animalID": 76,
+                "animalName": "Pingu",
+                "animalSpecies": "African Penguin",
+                "animalAge": 6,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Pingu is a sociable African penguin who enjoys swimming with the colony and resting beside his favorite rocky shelter. He uses distinctive calls to communicate with his partner and becomes especially lively when feeding time approaches. Pingu's streamlined body and powerful flippers make him much faster in water than on land. Keepers monitor his weight, feet, and waterproof feathers during regular checks. He eats small fish such as herring and sprat, together with nutritional supplements when required."
+            },
+            {
+                "animalImage": "rome_wolf",
+                "animalID": 77,
+                "animalName": "Remus",
+                "animalSpecies": "Eurasian Gray Wolf",
+                "animalAge": 6,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Remus is an alert Eurasian gray wolf whose name recalls one of the legendary founders of Rome. He lives within a social pack and communicates through posture, scent markings, facial expressions, and powerful howls. Remus enjoys following trails, running through wooded areas, and searching for food placed in changing locations. He remains cautious around unfamiliar objects but learns routines quickly. His diet contains fresh meat, bones, and whole prey items selected to support natural feeding behavior."
+            }
+        ]
+    },
+    
+    {
+        "zooImage": "budapest_zoo",
+        "zooName": "Botanical Garden",
+        "zooCity": "Budapest, Hungary",
+        "zooID": 12,
+        "zooInfo": "Budapest Zoo and Botanical Garden is a historic wildlife institution located in the City Park of Hungary's capital. Opened in 1866, it is the country's oldest zoo and combines animal habitats with valuable botanical collections and distinctive historic architecture. Visitors can explore species from tropical forests, African savannas, polar regions, wetlands, and many other ecosystems. The zoo supports conservation breeding, wildlife rescue, scientific study, and public education while preserving an important part of Budapest's cultural and natural heritage.",
+        "zooAnimals": [
+            {
+                "animalImage": "budapest_elephant",
+                "animalID": 78,
+                "animalName": "Jumbo",
+                "animalSpecies": "Asian Elephant",
+                "animalAge": 14,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Jumbo is a patient Asian elephant who enjoys walking with his herd, bathing, and using his trunk to investigate new enrichment objects. He can move heavy logs with ease but handles small pieces of food with remarkable precision. Jumbo responds calmly to protected training that allows keepers to inspect his feet, mouth, and skin. Food is distributed throughout the habitat to encourage daily movement and natural foraging. His diet includes hay, grass, bark, branches, vegetables, and limited amounts of fruit."
+            },
+            {
+                "animalImage": "budapest_gorilla",
+                "animalID": 79,
+                "animalName": "Hulk",
+                "animalSpecies": "Western Lowland Gorilla",
+                "animalAge": 13,
+                "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                "animalDescription": "Hulk is a strong western lowland gorilla whose serious appearance hides a calm and protective personality. He spends time with his family group, climbs sturdy structures, builds sleeping nests, and solves puzzles prepared by his keepers. Hulk pays close attention to changes in his environment and often examines unfamiliar objects before allowing younger gorillas to approach. Voluntary training supports regular health observations. His diet includes leafy vegetables, branches, fruit, seeds, nuts, and specially balanced primate food."
+            },
+            {
+                "animalImage": "budapest_polar_bear",
+                "animalID": 80,
+                "animalName": "Snowball",
+                "animalSpecies": "Polar Bear",
+                "animalAge": 8,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Snowball is a powerful polar bear who enjoys swimming, diving, and pushing large floating objects around his pool. His dense fur, strong paws, and thick layer of body fat are natural adaptations for life in cold environments. Keepers provide changing scents, hidden food, ice blocks, and durable toys to keep him physically and mentally active. Snowball also has quiet spaces where he can rest away from visitors. His diet includes fish, meat, bones, and carefully controlled nutritional supplements."
+            },
+            {
+                "animalImage": "budapest_red_panda",
+                "animalID": 81,
+                "animalName": "Master Shifu",
+                "animalSpecies": "Red Panda",
+                "animalAge": 5,
+                "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                "animalDescription": "Master Shifu is an agile red panda with a striped tail, careful movements, and a calm but independent personality. He spends much of his time climbing branches, resting in elevated shelters, and exploring when the air becomes cooler. His semi-retractable claws and flexible ankles help him move safely through the trees. Keepers place food at different heights to encourage natural activity. His diet is based on bamboo and also includes leaves, vegetables, fruit, and specially prepared food for red pandas."
+            },
+            {
+                "animalImage": "budapest_orangutan",
+                "animalID": 82,
+                "animalName": "Orangina",
+                "animalSpecies": "Sumatran Orangutan",
+                "animalAge": 10,
+                "animalDiet": "Omnivore (Meat and Plant Eaters)",
+                "animalDescription": "Orangina is a curious Sumatran orangutan who uses patience, intelligence, and strong hands to solve difficult feeding puzzles. She enjoys climbing ropes, building leafy nests, and observing both visitors and keepers from high platforms. Orangina often uses simple tools to reach food and remembers successful solutions for later activities. Regularly changing enrichment supports her physical and mental well-being. Her diet includes leafy vegetables, fruit, seeds, nuts, branches, and small portions of protein prepared by the animal-care team."
+            },
+            {
+                "animalImage": "budapest_crocodile",
+                "animalID": 83,
+                "animalName": "Crocodile Dundee",
+                "animalSpecies": "Nile Crocodile",
+                "animalAge": 16,
+                "animalDiet": "Carnivore (Meat-Eaters)",
+                "animalDescription": "Crocodile Dundee is a large Nile crocodile who spends long periods resting almost motionless beside the water. Despite his quiet appearance, he can react with impressive speed and uses powerful jaws to capture food. Dundee regulates his body temperature by moving between warm basking areas, shade, and water. Keepers observe him from protected positions and carefully monitor his appetite, movement, teeth, and skin. His diet includes fish, poultry, and other meat provided according to a controlled feeding schedule."
+            },
+            {
+                "animalImage": "budapest_giraffe",
+                "animalID": 84,
+                "animalName": "Tallulah",
+                "animalSpecies": "Rothschild's Giraffe",
+                "animalAge": 7,
+                "animalDiet": "Herbivore (Plant-Eaters)",
+                "animalDescription": "Tallulah is a graceful Rothschild's giraffe who enjoys browsing leafy branches and staying close to the other members of her group. Her excellent height and long tongue allow her to reach food that many animals cannot access. Tallulah approaches familiar keepers calmly and participates in training used to inspect her hooves and general health. Hanging feeders encourage her to stretch and move naturally throughout the day. Her meals include fresh branches, hay, leafy vegetables, and nutritionally balanced giraffe pellets."
+            }
+        ]
     }
 ]
