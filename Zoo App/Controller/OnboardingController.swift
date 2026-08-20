@@ -22,8 +22,8 @@ class OnboardingController: UIViewController {
         view.showsHorizontalScrollIndicator = false
         view.dataSource = self
         view.delegate = self
-        view.translatesAutoresizingMaskIntoConstraints = false
         view.bounces = false
+        view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
     

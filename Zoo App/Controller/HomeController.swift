@@ -20,6 +20,7 @@ class HomeController: UIViewController {
         view.isHidden = false
         view.delegate = self
         view.dataSource = self
+        view.bounces = false
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -83,7 +84,7 @@ class HomeController: UIViewController {
     }
 }
 
-extension HomeController: UICollectionViewDataSource {
+extension HomeController: UICollectionViewDataSource, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         viewModel.zoos.count
     }
@@ -114,6 +115,14 @@ extension HomeController: UICollectionViewDataSource {
             }
             return cell
         }
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let controller = ZooAnimalsController()
+        controller.zoo = viewModel.zoos[indexPath.item]
+        controller.title = viewModel.zoos[indexPath.item].zooName
+        controller.hidesBottomBarWhenPushed = true
+        navigationController?.show(controller, sender: self)
     }
 }
 
