@@ -10,6 +10,7 @@ import UIKit
 class ZooListCell: UICollectionViewCell {
     private lazy var zooImageView: UIImageView = {
         let image = UIImageView()
+        image.layer.cornerRadius = 12
         image.contentMode = .scaleAspectFill
         image.clipsToBounds = true
         image.translatesAutoresizingMaskIntoConstraints = false

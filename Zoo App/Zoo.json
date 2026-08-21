@@ -4,6 +4,7 @@
         "zooName": "Baku Zoological Park",
         "zooCity": "Baku, Azerbaijan",
         "zooID": 1,
+        "zooTicketPrice": "5 AZN",
         "zooInfo": "Baku Zoological Park is a modern and family-friendly wildlife park located in the capital of Azerbaijan. This zoo is a home to animals from different parts of the world and provides them with safe habitats, professional veterinary care, and balanced nutrition. Its main mission is to protect wildlife, support conservation programs, and help visitors learn more about animals and their natural environments.",
         "zooAnimals": [
             {
@@ -77,6 +78,7 @@
         "zooName": "Tbilisi Zoological Park",
         "zooCity": "Tbilisi, Georgia",
         "zooID": 2,
+        "zooTicketPrice": "4 GEL",
         "zooInfo": "Tbilisi Zoological Park is one of the oldest and largest zoological parks in Georgia. Located in the country's capital, the zoo introduces visitors to animals from the Caucasus and many other regions of the world. Its work combines professional animal care, environmental education, scientific research, and the protection of rare species. The zoo pays special attention to wildlife native to Georgia and helps visitors understand why natural habitats and endangered animals must be protected.",
         "zooAnimals": [
             {
@@ -150,6 +152,7 @@
         "zooName": "Polonezkoy Zoo",
         "zooCity": "Istanbul, Turkey",
         "zooID": 3,
+        "zooTicketPrice": "800 TRY",
         "zooInfo": "Polonezkoy Zoo is a nature-focused wildlife park located in the green Beykoz district of Istanbul. The park is surrounded by forest and gives visitors an opportunity to observe animals in spacious areas that resemble natural environments. Some peaceful species can move through open sections, while predators live in specially protected habitats. Guided activities, animal observation, and educational experiences help visitors learn about responsible care, biodiversity, and respect for wildlife.",
         "zooAnimals": [
             {
@@ -223,6 +226,7 @@
         "zooName": "Sofia Zoo",
         "zooCity": "Sofia, Bulgaria",
         "zooID": 4,
+        "zooTicketPrice": "15 BGN",
         "zooInfo": "Sofia Zoo is the oldest and largest zoological garden in Bulgaria and is located in the country's capital. It is home to animals from many continents, including rare and endangered species cared for through international conservation programs. The zoo combines animal welfare, scientific work, public education, and environmental awareness. Its different zones introduce visitors to large mammals, primates, predators, birds, reptiles, amphibians, and aquatic life.",
         "zooAnimals": [
             {
@@ -296,6 +300,7 @@
         "zooName": "Prague Zoo",
         "zooCity": "Prague, Czech Republic",
         "zooID": 5,
+        "zooTicketPrice": "330 CZK",
         "zooInfo": "Prague Zoo is a major zoological and conservation institution located in the Troja district of the Czech capital. Its large territory contains specialized habitats such as Elephant Valley, the Dja Reserve for gorillas, the African House, the Indonesian Jungle, and the Gharial House. The zoo participates in international breeding programs and supports wildlife conservation projects in different parts of the world. Its modern exhibits are designed to encourage natural behavior while helping visitors understand the environments animals depend on.",
         "zooAnimals": [
             {
@@ -369,6 +374,7 @@
         "zooName": "Zoo Berlin",
         "zooCity": "Berlin, Germany",
         "zooID": 6,
+        "zooTicketPrice": "25 EUR",
         "zooInfo": "Zoo Berlin is Germany's oldest zoological garden and is located in the center of the country's capital. It is internationally known for its exceptionally diverse animal collection and its work with endangered species. The zoo contains specialized environments for giant pandas, large cats, great apes, rhinoceroses, penguins, seals, and many other animals. Modern habitats, research, breeding programs, and worldwide conservation projects form an important part of its mission.",
         "zooAnimals": [
             {
@@ -442,6 +448,7 @@
         "zooName": "Schonbrunn Zoo",
         "zooCity": "Vienna, Austria",
         "zooID": 7,
+        "zooTicketPrice": "27 EUR",
         "zooInfo": "Schonbrunn Zoo is located in Vienna within the historic Schonbrunn Palace gardens and is recognized as the oldest continuously operating zoo in the world. Today it combines its historic setting with modern habitats, scientific research, international breeding programs, and high standards of animal care. Visitors can discover hundreds of species representing tropical forests, mountain regions, polar environments, deserts, and aquatic ecosystems. Education and the protection of endangered wildlife are central parts of the zoo's work.",
         "zooAnimals": [
             {
@@ -515,6 +522,7 @@
         "zooName": "London Zoo",
         "zooCity": "London, United Kingdom",
         "zooID": 8,
+        "zooTicketPrice": "33 GBP",
         "zooInfo": "London Zoo is a historic wildlife park located in Regent's Park in the heart of the British capital. Founded in 1828, it is recognized as the world's oldest scientific zoo and today forms part of an international conservation organization. The zoo is home to thousands of animals, from tiny insects and reptiles to lions, tigers, penguins, and gorillas. Its modern habitats, educational programs, scientific research, and global conservation projects help visitors understand wildlife and the importance of protecting endangered species.",
         "zooAnimals": [
             {
@@ -588,6 +596,7 @@
         "zooName": "Paris Zoological Park",
         "zooCity": "Paris, France",
         "zooID": 9,
+        "zooTicketPrice": "22 EUR",
         "zooInfo": "Paris Zoological Park is a modern wildlife park situated beside the Bois de Vincennes in the French capital. The visitor route presents animals and plants through five large biozones inspired by Patagonia, Africa, Europe, Amazonia, and Madagascar. Natural landscapes, open viewpoints, and carefully planned habitats help people observe how different species interact with their environments. The park also supports scientific research, environmental education, breeding programs, and international projects dedicated to the conservation of threatened wildlife.",
         "zooAnimals": [
             {
@@ -661,6 +670,7 @@
         "zooName": "Aquarium de Madrid",
         "zooCity": "Madrid, Spain",
         "zooID": 10,
+        "zooTicketPrice": "28 EUR",
         "zooInfo": "Zoo Aquarium de Madrid is a large zoological park located in the green Casa de Campo area of Spain's capital. Its grounds combine a traditional zoo, a public aquarium, a large aviary, and educational spaces representing wildlife from five continents. Visitors can discover hundreds of species while learning about their behavior, ecosystems, and the threats they face in nature. The zoo participates in breeding, research, rescue, and conservation programs and uses educational activities to encourage respect for animals and their habitats.",
         "zooAnimals": [
             {
@@ -734,6 +744,7 @@
         "zooName": "Bioparco di Roma",
         "zooCity": "Rome, Italy",
         "zooID": 11,
+        "zooTicketPrice": "19 EUR",
         "zooInfo": "Bioparco di Roma is a historic zoological garden situated within Villa Borghese near the center of the Italian capital. The park combines mature trees, natural landscapes, modern animal habitats, and educational areas designed for visitors of different ages. Its collection includes mammals, birds, reptiles, and amphibians from many parts of the world, including several threatened species. Conservation breeding, scientific research, wildlife protection, and environmental education are central to the Bioparco's mission and its transformation into a modern conservation-focused zoo.",
         "zooAnimals": [
             {
@@ -807,6 +818,7 @@
         "zooName": "Botanical Garden",
         "zooCity": "Budapest, Hungary",
         "zooID": 12,
+        "zooTicketPrice": "5,500 HUF",
         "zooInfo": "Budapest Zoo and Botanical Garden is a historic wildlife institution located in the City Park of Hungary's capital. Opened in 1866, it is the country's oldest zoo and combines animal habitats with valuable botanical collections and distinctive historic architecture. Visitors can explore species from tropical forests, African savannas, polar regions, wetlands, and many other ecosystems. The zoo supports conservation breeding, wildlife rescue, scientific study, and public education while preserving an important part of Budapest's cultural and natural heritage.",
         "zooAnimals": [
             {

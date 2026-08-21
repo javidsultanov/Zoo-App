@@ -12,6 +12,7 @@ struct Zoo: Codable {
     var zooName: String
     var zooCity: String
     var zooID: Int
+    var zooTicketPrice: String
     var zooInfo: String
     var zooAnimals: [Animal]
 }
